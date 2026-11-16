@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Clinica DIW">
+    <meta name="copyright" content="2026, Clinica DIW">
+    <meta name="keywords" content="Clinica DIW, contacto, atención al cliente, formulario">
+    <meta name="description" content="Contacta con nosotros a través del formulario y consulta cualquier cosa.">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/estructura.css">
+</head>
+
+<body>
+    <header>
+        <a href="./index.html"><img src="./assets/images/logo-clinica-diw.jpg" width="200" height="100"
+                alt="Logo Clinica DIW" /></a>
+        <p></p>
+    </header>
+    <nav>
+        <ul>
+            <li>
+                <a href="./index.html">Inicio</a>
+            </li>
+            <li>
+                <a href="./servicios.html">Servicios</a>
+            </li>
+            <li>
+                <a href="./contacto.html">Contacto</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <h1>FORMULARIO DE CONTACTO</h1>
+        <form id="formulario-contacto">
+            <fieldset>
+                <legend>Datos a rellenar</legend>
+
+                <label>Nombre</label>
+                <input type="text" id="nombre" name="nombre" maxlength="40" placeholder="Introducir nombre..."
+                    pattern="[A-Za-z0-9]+" autofocus required>
+                <br>
+                <label>Email</label>
+                <input type="email" id="email" name="email" placeholder="Introducir email de contacto..." required>
+                <br>
+                <label>Edad</label>
+                <input type="number" id="edad" name="edad" min="18" max="99" placeholder="Introducir edad..." required>
+                <br>
+                <label>Teléfono</label>
+                <input type="tel" id="telefono" name="telefono" placeholder="Introducir número de teléfono" required>
+                <br>
+                <label>Consulta</label> <br>
+                <textarea id="consulta" name="consulta" rows="10" cols="50" placeholder="Su consulta..."
+                    required></textarea>
+                <br>
+                <label id="texto-aceptar">Acepto la política de privacidad y cookies</label>
+                <input type="checkbox" id="politica-privacidad" name="politicaPrivacidad" required>
+            </fieldset>
+            <br><br>
+
+            <button>Enviar</button>
+        </form>
+
+        <section>
+            <h2>Datos de contacto</h2>
+
+            <p>Clínica DIW</p>
+            <p>Email: <a href="mailto:clinicadiw@email.com">clinicadiw@email.com</a></p>
+            <p>Teléfono: <a href="tel:+34123456789">123 456 789</a></p>
+        </section>
+    </main>
+    <footer>
+        <p>2026, Clínica DIW</p>
+        <p><a href="./politica_privacidad.html">Política de privacidad y cookies</a></p>
+        <a id="logo-whatsapp" href="https://whatsapp.com"><img src="./assets/images/logo-whatsapp.png" alt="Logo Whatsapp" width="24"
+                height="24"></a>
+        <a href="https://instagram.com"><img src="./assets/images/logo-instagram.png" alt="Logo Instagram" width="24"
+                height="24"></a>
+        <a href="https://x.com"><img src="./assets/images/logo-x.png" alt="Logo X" width="30" height="24"></a>
+        <a href="https://facebook.com"><img src="./assets/images/logo-facebook.png" alt="Logo Facebook" width="24"
+                height="24"></a>
+        <p>Encuentranos en
+            <br>
+            <iframe src="https://maps.google.com/maps?q=Alicante&t=&z=13&ie=UTF8&iwloc=&output=embed" width="400"
+                height="300" title="Ubicación de Clinica DIW">
+            </iframe>
+        </p>
+    </footer>
+</body>
+
+</html>

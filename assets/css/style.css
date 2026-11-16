@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 1em;
+}
+
+nav {
+    background-color: #457B9D;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+footer {
+    background-color: #1D3557;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 2em;
+}
+
+aside {
+    background-color: #F1FAEE;
+    padding: 1em;
+}
+
+h1 {
+    font-size: 4em;
+    color: #457B9D;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.375em;
+    color: #1D3557;
+    margin-bottom: 0.5em;
+}
+
+p, article {
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+
+a {
+    color: #457B9D;
+    text-decoration: none;
+}
+
+nav a {
+    color: #FFFFFF; 
+}
+
+footer a {
+    color: #A8DADC;
+}
+
+form {
+    background-color: #F1FAEE;
+    padding: 2em;
+    color: #1D3557;
+}
+
+input, textarea, button, select {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    color: #1D3557;
+}
+
+table {
+    background-color: #FFFFFF;
+    color: #1D3557;
+    font-size: 1em;
+    table-layout: auto;
+    border-collapse: collapse;
+    margin: 1em;
+}
+
+caption {
+    color: #1D3557;
+    caption-side: bottom;
+    font-weight: bold;
+}
+
+th, td {
+    border: 1px solid #1D3557;
+    text-align: center;
+    padding: 1em;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    padding: 1em;
+}
+
+nav a {
+    background-color: #A8DADC;
+    color: #1D3557;
+    padding: 0.7em 1.5em;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+aside ul {
+    list-style-type: square;
+    padding-left: 2em;
+    margin-top: 1em;
+}
+
+aside li {
+    margin-bottom: 0.8em;
+}
+
+aside a {
+    color: #457B9D;
+    text-decoration: underline;
+}
+
+#logo-whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 2;
+    background-color: #F1FAEE;
+    padding: 0.5em;
+    border-radius: 10px;
+}
+
+#logo-whatsapp img {
+    width: 48px;
+    height: 48px;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #FFFFFF;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #F1FAEE;
+}
+
+tbody tr:first-child {
+    background-color: #A8DADC;
+    font-weight: bold;
+}
+
+main a:link { color: #457B9D; }
+main a:visited { color: #1D3557; }
+main a:hover { 
+    color: #F4A261; 
+    text-decoration: underline; 
+}
+main a:active { color: #A8DADC; }
+
+nav a:link, nav a:visited {
+    background-color: #A8DADC;
+    color: #1D3557;
+}
+nav a:hover {
+    background-color: #1D3557;
+    color: #FFFFFF;
+}
+nav a:active {
+    background-color: #F4A261;
+    color: #1D3557;
+}
+
+aside a:link { color: #457B9D; }
+aside a:visited { color: #1D3557; }
+aside a:hover { color: #F4A261; }
+aside a:active { color: #A8DADC; }
+
+footer a:link { color: #A8DADC; }
+footer a:visited { color: #F1FAEE; }
+footer a:hover { color: #F4A261; }
+footer a:active { color: #FFFFFF; }
+
+#formulario-contacto {
+    width: 100%;
+}
+
+#formulario-contacto label{
+    padding-left: 0.5em;
+}
+
+#formulario-contacto input, textarea{
+    margin: 0.5em;
+    padding-left: 0.25em;
+}
+
+#nombre, #contacto, #email{
+    width: 25%;
+}
+
+#edad{
+    margin: 0.5em;
+    padding-left: 0.25em;
+    width: 3%;
+}
+
+#telefono {
+    margin: 0.5em;
+    padding-left: 0.25em;
+    width: 12%;
+}
+
+#texto-aceptar {
+    font-weight: bold;
+}
+
+#formulario-contacto input:focus,
+#formulario-contacto textarea:focus {
+    border-color: #1D3557;
+    outline: none;
+    border-radius: 0.5em;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 2em;
+    margin-bottom: 1em;
+    text-decoration: underline;
+}
+
+fieldset {
+    border: none;
+}
+
+#formulario-contacto button {
+    border-radius: 1em;
+    background-color: #1D3557;
+    color: #F1FAEE;
+    padding: 0.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#formulario-contacto button:hover {
+    text-decoration: underline;
+    background-color: #457B9D;
+}
