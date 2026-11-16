@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+menu,
+nav,
+main,
+aside,
+footer {
+    display: block;
+    background-color: blue;
+    border: 1px solid black;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+@media(min-width: 1201px){
+    body{
+        font-family: 'Arial';
+    }
+
+    header {
+        height: 100px;
+        line-height: 100px;
+    }
+
+    menu {
+        height: 75px;
+        line-height: 75px;
+    }
+
+    #nav-principal {
+        float: left;
+        height: 400px;
+        line-height: 400px;
+        width: 18%;
+    }
+
+    #nav-secundario {
+        height: 75px;
+        line-height: 75px;
+        float: left;
+        width: 78%;
+        margin-left: 4%;
+    }
+
+    main {
+        float: left;
+        height: 300px;
+        line-height: 300px;
+        margin-left: 4%;
+        width: 52%;
+    }
+
+    aside {
+        float: left;
+        height: 300px;
+        line-height: 300px;
+        width: 22%;
+        margin-left: 4%;
+    }
+
+    footer {
+        height: 100px;
+        line-height: 100px;
+        clear:both;
+    }
+}
+
+@media(min-width: 701px) and (max-width: 1200px){
+    body {
+        font-family: 'Calibri';
+    }
+
+    header {
+        height: 100px;
+        line-height: 100px;
+    }
+
+    menu {
+        height: 75px;
+        line-height: 75px;
+    }
+
+    #nav-principal{
+        float: left;
+        width: 15%;
+        height: 400px;
+        line-height: 400px;
+    }
+
+    #nav-secundario{
+        display: none;
+    }
+
+    main{
+        float: left;
+        margin-left: 5px;
+        width: calc(85% - 5px);
+        height: 400px;
+        line-height: 400px;
+    }
+
+    aside {
+        clear: both;
+        height: 75px;
+        line-height: 75px;
+    }
+
+    footer {
+        height: 75px;
+        line-height: 75px;
+    }
+}
+
+@media(max-width: 700px){
+    body {
+        font-family: 'Times New Roman';
+    }
+
+    header {
+        height: 100px;
+        line-height: 100px;
+    }
+
+    menu {
+        height: 75px;
+        line-height: 75px;
+    }
+
+    #nav-principal {
+        height: 75px;
+        line-height: 75px;
+        margin-bottom: 12px;
+    }
+
+    #nav-secundario {
+        height: 75px;
+        line-height: 75px;
+    }
+
+    main {
+        height: 150px;
+        line-height: 150px;
+    }
+
+    aside {
+        height: 75px;
+        line-height: 75px;
+    }
+
+    footer {
+        height: 75px;
+        line-height: 75px;
+    }
+}
