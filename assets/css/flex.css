@@ -1,0 +1,14 @@
+#contenedor-flex {
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+article {
+    border-radius: 10px;
+    background-color: lightblue;
+    text-align: justify;
+    margin: 20px;
+    padding: 10px;
+}
